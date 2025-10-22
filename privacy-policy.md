@@ -1,54 +1,56 @@
 # Privacy Policy for Philosopher's Companion
 
-**Last Updated: August 17, 2025**
+**Last Updated: October 22, 2025**
 
-Thank you for using Philosopher's Companion ("the App"). This Privacy Policy describes how we collect, use, share, and protect your information. The App is built with Expo and uses services like Google AdMob for ads, Firebase for notifications and authentication, and other Expo modules for functionality.
+Thank you for using Philosopher's Companion ("the App"). Your privacy is important to us. This Privacy Policy explains how your information is collected, used, and protected.
+
+This app is for Android only and uses Google AdMob for ads and Google Play for in-app purchases.
 
 ## Information We Collect
 
-We collect the following data automatically through third-party SDKs:
+We collect information in two ways: data you store locally on your device and data collected automatically by third-party services.
 
-- **Approximate Location**: Inferred from your IP address (via AdMob) for ad targeting. Not precise.
-- **App Activity**: Interactions like ad clicks/views and other actions (e.g., session data, notification opens) via AdMob and Firebase.
-- **App Info and Performance**: Crash logs, diagnostics (e.g., load times), and other performance data via Firebase and Expo.
-- **Device or Other IDs**: Advertising ID (AdMob), Firebase Installation ID, and device metadata (e.g., OS version, model) via Expo.
+### 1. Data You Store Locally (On-Device)
 
-We also use Firebase Authentication for an anonymous User ID (not linked to personal info) and Firestore to store purchase status for the "Pro" version.
+This information is stored on your device using `AsyncStorage` and is **never sent to us or any third party**.
 
-We do not collect sensitive personal info like name, email, exact location, or contacts unless you provide it (e.g., via support).
+* **Your Name:** We may optionally ask for your name. This is used **only** to personalize the images you choose to share.
+* **App Settings:** We save your preferences, such as your chosen theme, font, and notification settings, on your device.
+* **Favorites & Streak:** Your list of favorite quotes and your daily streak are stored locally on your device.
+
+### 2. Data Collected Automatically (Third-Party Services)
+
+We use **Google AdMob** to display advertisements in the free version of the App. AdMob is a Firebase service and may collect data to provide and personalize ads. This includes:
+
+* **App Activity:** Such as ad views, clicks on ads, and other interactions.
+* **Device Information:** Including your device model, operating system, and IP address (for approximate location).
+* **Device IDs:** Such as your device's Advertising ID.
+
+To better protect your privacy, we have configured AdMob to request **Non-Personalized Ads** wherever possible.
 
 ## How We Use Your Information
 
-Data is used for:
-- App functionality (e.g., notifications, stability via Firebase/Expo).
-- Analytics (e.g., performance monitoring).
-- Advertising/marketing (e.g., targeted ads via AdMob).
-- Fraud prevention/security/compliance (e.g., detecting invalid ad activity).
+* **To Provide App Functionality:** We use the data stored locally to save your settings and favorites, as you intended.
+* **To Display Advertisements:** We use Google AdMob to show ads that support the free version of the app.
+* **To Improve the App:** We use aggregated data from AdMob (like crash reports) to identify bugs and improve app performance.
 
-## Data Sharing
+## In-App Purchases
 
-We share data with:
-- Google (for Firebase/AdMob services and subprocessors).
-- Ad partners (via AdMob) for ad delivery and measurement.
+The App offers a one-time "Pro" upgrade. This purchase is **managed securely and entirely by the Google Play Store**. We **do not** collect or store any of your payment information (like credit card numbers).
 
-We do not sell data or share for unrelated purposes.
-
-## Data Security
-
-All data is encrypted in transit (using TLS/HTTPS). We follow industry standards for protection, but no system is 100% secure.
+When the app starts, it checks with Google Play's services to verify if you have already purchased the "Pro" version and unlocks features accordingly.
 
 ## Data Deletion
 
-You can request deletion of your data (e.g., ad ID reset or Firebase records) via this form: [Deletion Request Form](https://docs.google.com/forms/d/e/1FAIpQLSe4_zAUBxwietu1U9ejl161eUrcDO-HWQNClCPX5AdplxuKdg/viewform). Some data (e.g., ad IDs) can be managed in Android settings.
+You have control over your data in the following ways:
 
-## Your Choices
-
-Opt out of personalized ads via Android settings. For other data, collection is required for app features.
+1.  **Locally Stored Data:** You can delete your "User Name" at any time by going to the Settings screen in the app and clearing the name field. You can delete all your local data (favorites, settings, streak) by clearing the app's cache or data in your main Android Settings.
+2.  **Advertising Data:** You can reset your device's Advertising ID or opt out of personalized advertising by going to your Android Settings > Google > Ads.
 
 ## Changes to This Privacy Policy
 
-We may update this policy. Changes will be posted here with the updated date.
+We may update this policy from time to time. If we make changes, we will update the "Last Updated" date at the top of this policy.
 
 ## Contact Us
 
-For questions or deletion requests: vishal.shinde001@yahoo.com
+If you have any questions about this Privacy Policy, please contact us at: **vishal.shinde001@yahoo.com**
