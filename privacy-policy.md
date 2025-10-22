@@ -53,4 +53,4 @@ We may update this policy from time to time. If we make changes, we will update 
 
 ## Contact Us
 
-If you have any questions about this Privacy Policy, please contact us at: **vishal.shinde001@yahoo.com**
+If you have any questions about this Privacy Policy, please contact us at: **innercompass.labs@gmail.com**
